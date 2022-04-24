@@ -1,0 +1,55 @@
+.imagem_inicial{
+    background-color: #355EAE;
+    height: 95px;
+}
+.imagem_inicial img{
+    position: absolute;
+    left: 45%;
+    top: 4%;
+}
+.barra_de_navegacao{
+    background-color: #FF6501;
+    height: 43px;
+    border: dotted;
+    border-color: white;
+    text-align: center;
+    font-size: 31px;
+}
+.barra_de_navegacao button{
+    background-color: #FF6501;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+.botao1:hover{
+    background-color: #f55308;
+    border-radius: 8px;
+    color: black;
+}
+.botao2:hover{
+    background-color: #f55308;
+    border-radius: 8px;
+    color: black;
+}
+.botao3:hover{
+    background-color: #f55308;
+    border-radius: 8px;
+    color: black;
+}
+.botao4:hover{
+    background-color: #f55308;
+    border-radius: 8px;
+    color: black;
+}
+.botao5:hover{
+    background-color: #f55308;
+    border-radius: 8px;
+    color: black;
+}
+.imagem_da_promocao{
+    padding-right: 30px;
+    border-radius: 8px;
+}
