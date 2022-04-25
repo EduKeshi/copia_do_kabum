@@ -1,16 +1,23 @@
+body{
+    margin: 0px;
+}
 .imagem_inicial{
     background-color: #355EAE;
     height: 95px;
+    padding: 0px;
 }
 .imagem_inicial img{
     position: absolute;
     left: 45%;
-    top: 4%;
+    top: 2.7%;
 }
 .barra_de_navegacao{
     background-color: #FF6501;
     height: 43px;
-    border: dotted;
+    border-top: dotted;
+    border-bottom: dotted;
+    border-left: none;
+    border-right: none;
     border-color: white;
     text-align: center;
     font-size: 31px;
@@ -48,8 +55,4 @@
     background-color: #f55308;
     border-radius: 8px;
     color: black;
-}
-.imagem_da_promocao{
-    padding-right: 30px;
-    border-radius: 8px;
 }
