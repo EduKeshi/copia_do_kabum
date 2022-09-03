@@ -21,8 +21,28 @@
             <button class="botao5" type="button">Contato</button>
         </nav>
     </div>
-    <div class="imagem_da_promocao">
-        <img src="imagem_promocao_kabum.jpg" height="86.8%">
+    <div class="imagem-da-promocao">
+        <img src="imagem_promocao_kabum.jpg" height="90.6%">
+    </div>
+    <div class="formulario">
+        <form>
+            <h1>Dados Cadastrais</h1>                   
+            <label for="nome-completo">Nome Completo</label><br>
+            <input type="text" id="nome-completo" name="nome-completo"><br>
+            <label for="email-usuario">E-mail</label><br>
+            <input type="email" id="email-usuario" name="email-usuario"><br>
+            <label for="data-nascimento">Data de Nascimento</label><br>
+            <input type="date" id="data-nascimento" name="data-nascimento"><br>
+            <label for="receber-emails">Deseja receber e-mail promocionais?</label><br>
+            <input type="radio" id="sim" value="Sim">
+            <label for="sim">Sim</label><br>
+            <input type="radio" id="não" name="receber-emails" value="Não">
+            <label for="não">Não</label><br>
+            <br>
+            <button class="botao-formulario" type="submit">Enviar</button>
+            <button class="botao-formulario" type="reset">Apagar Dados</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>

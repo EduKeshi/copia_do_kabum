@@ -56,3 +56,18 @@ body{
     border-radius: 8px;
     color: black;
 }
+form{
+    padding-top: 0.1%;
+    padding-left: 5%;
+    background-color: #A71C09;
+}
+.botao-formulario{
+    background-color: #A71C09;
+    border: none;
+    cursor: pointer;
+}
+.botao-formulario:hover{
+    transition-duration: 00.8s;
+    background-color: white;
+    border-radius: 8px;
+}
